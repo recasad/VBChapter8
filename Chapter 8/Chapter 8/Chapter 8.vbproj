@@ -130,8 +130,14 @@
     <EmbeddedResource Include="Tutorial 1.resx">
       <DependentUpon>Tutorial 1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Tutorial 10.resx">
+      <DependentUpon>Tutorial 10.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tutorial 2.resx">
       <DependentUpon>Tutorial 2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tutorial 6.resx">
+      <DependentUpon>Tutorial 6.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -145,6 +151,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Airplane.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
